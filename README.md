@@ -123,3 +123,12 @@ now this is more specific. it says its the middle part of the i64 and 10.. group
 ```ts
 var foo: i64 & 10..
 ```
+
+
+`struct` keyword can be used for branded types, and `type` keyword can be used for shapes.
+
+for types, a not operator might be useful. for example i should be able to say any `string` but not `"hello"`.
+`!&` can be a useful operator maybe? for example we can use it for `!|` too maybe? to remove stuff from the unions?
+but makes you think... what is the difference between `!&` and `!|` ??? yeah doesnt make sense at all.
+
+so i think this might make more sense `string & !"hello"` or `u64 & !0`. yeah makes more sense.
