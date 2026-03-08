@@ -132,3 +132,7 @@ for types, a not operator might be useful. for example i should be able to say a
 but makes you think... what is the difference between `!&` and `!|` ??? yeah doesnt make sense at all.
 
 so i think this might make more sense `string & !"hello"` or `u64 & !0`. yeah makes more sense.
+
+## License
+
+[LGPL v2.1](LICENSE)
